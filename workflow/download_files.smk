@@ -29,7 +29,7 @@ for recid, regexp_lst in config['recid'].items():
 
     recid_vals = [
         int(i.split('PHYSLITE.')[-1].split('._')[0]) for i in recid_files
-        ]
+    ]
 
     if len(regexp_lst)==0:
         #calculate recid number from all files

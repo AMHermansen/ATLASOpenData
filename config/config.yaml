@@ -1,8 +1,6 @@
 
 hydra:
-
   # listmerge: append
-
   job:
     chdir: True
 
@@ -16,6 +14,6 @@ defaults:
   - variables_to_save: GN2.yaml
   - root: default.yaml
 
-maxevents: 100
+maxevents: 99999999999
 tree: CollectionTree;1
 style: FTAG # event
